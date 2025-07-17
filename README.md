@@ -4,7 +4,7 @@ This project was completed as part of the "Deep Learning" course at Nile Univers
 # About The Data:
 Panoptic segmentation of nUclei and tissue in advanced MelanomA:
 Melanoma is an aggressive form of skin cancer with increasing incidence. While primary melanoma is often treated with surgical excision, advanced melanoma requires immune checkpoint inhibition therapy. Unfortunately, half of the patients do not respond to this therapy, which is costly and potentially toxic. 
-## For further information about the data check this [Link](https://puma.grand-challenge.org/)
+## For further information about the data check this [Link](https://puma.grand-challenge.org)
 
 # GOAL
 In this project, we tend to solve task 1 in track 1, which is Semantic tissue segmentation, using a pretrained U-net from the segmentation model's module with EfficientNetB0 as a backbone “Encoder”. The performance was evaluated by Dice Coefficient (DSC), Dice Loss, and IOU (Intersection Over Union) score. 
