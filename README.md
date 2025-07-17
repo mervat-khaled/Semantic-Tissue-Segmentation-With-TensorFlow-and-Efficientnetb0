@@ -7,7 +7,7 @@ Melanoma is an aggressive form of skin cancer with increasing incidence. While p
 ## For further information about the data check this [Link](https://puma.grand-challenge.org/)
 
 # GOAL
-In this project, we tend to solve the task 1 in track 1, wich is Semantic tissue segmentation, using a pretrained U-net from segmentation model's module with EfficientNetB0 as a backbone “Encoder”. The performance was evaluated by Dice Coefficient (DSC), Dice Loss, IOU (Intersection Over Union) score. 
+In this project, we tend to solve task 1 in track 1, which is Semantic tissue segmentation, using a pretrained U-net from the segmentation model's module with EfficientNetB0 as a backbone “Encoder”. The performance was evaluated by Dice Coefficient (DSC), Dice Loss, and IOU (Intersection Over Union) score. 
 
 ## Image Enhancment:
 To improve the contrast in images, which can make edges and boundaries more distinct, we applied 4 preprocessing techniques:  
